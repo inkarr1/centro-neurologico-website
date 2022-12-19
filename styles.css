@@ -23,7 +23,7 @@ body {
     font-size: var(--size-text);
 }
 
-p, a {
+p {
     font-size: var(--size-text);
 }
 
@@ -90,11 +90,12 @@ img {
     padding-top: 16rem;
 
     justify-items: center;
+
 }
 
 .banner-description {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .whatsapp {
@@ -105,20 +106,38 @@ img {
     color: var(--primary-color);
 }
 
-.button {
+.opening-hours {
+    padding: 1rem;
+    border-radius: 1rem;
+    background: #f5d7c9;
+    border: 2px solid var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-button {
     padding: 2rem 4rem;
     background: #27d467;
     cursor: pointer;
     border: none;
     font-size: 2.5rem;
+    border-radius: 5rem;
 }
 
-.schedule {
+.cta-button > a {
     display: flex;
-    margin-bottom: 2rem;
+    align-items: center;
 }
 
-.about {
+.cta-button > a > img {
+    margin-right: 1rem;
+}
+
+.process {
     padding: 16rem 0;
     background: var(--secundary-color);
     color: white;
