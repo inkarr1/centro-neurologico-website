@@ -50,7 +50,7 @@ img {
 }
 
 .header {
-    height: 8rem;
+    height: 12rem;
     width: 100vw;
     display: flex;
     background: var(--primary-color);
@@ -87,7 +87,7 @@ img {
 
 .banner{
     display: grid;
-    padding-top: 16rem;
+    padding-top: 12rem;
 
     justify-items: center;
 
@@ -112,6 +112,14 @@ img {
     background: #f5d7c9;
     border: 2px solid var(--primary-color);
     margin-bottom: 2rem;
+}
+
+.opening-hours > h3{
+    text-align: center;
+}
+
+.opening-hours > p {
+    white-space: break-spaces;
 }
 
 .button-container {
