@@ -8,7 +8,8 @@
     --font-family: sans-serif, Inter;
     --primary-color: #a0261a;
     --secundary-color: #601104;
-    --background-color: #fcf0e7;
+    --background-color: #FCF0E7;
+    --white-color: #fff;
 
     --size-text: 1.125rem;
     --bigger-text: 4rem;
@@ -17,7 +18,6 @@
 }
 
 body {
-    background: var(--background-color);
     color: var(--secundary-color);
     font-family: var(--font-family);
     font-size: var(--size-text);
@@ -86,8 +86,10 @@ img {
 
 
 .banner{
+    background: var(--background-color);
+
     display: grid;
-    padding-top: 12rem;
+    padding-top: 8rem;
 
     justify-items: center;
 
@@ -109,7 +111,6 @@ img {
 .opening-hours {
     padding: 1rem;
     border-radius: 1rem;
-    background: #f5d7c9;
     border: 2px solid var(--primary-color);
     margin-bottom: 2rem;
 }
@@ -147,8 +148,7 @@ img {
 
 .process {
     padding: 16rem 0;
-    background: var(--secundary-color);
-    color: white;
+    color: var(--secundary-color);
     display: grid;
     gap: 4rem;
 }
@@ -161,4 +161,86 @@ img {
 
 .image-container > img {
     width: 32rem;
+}
+
+.grid-container {
+    text-align: center;
+    display: grid;
+    gap: 6rem;
+
+}
+
+.about {
+    padding: 16rem 0;
+    text-align: center;
+    background: var(--primary-color);
+    color: var(--white-color);
+
+    display: grid;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.doctor-container {
+    background: white;
+    color: var(--primary-color);
+    margin: 0 2rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.doctor-description {
+    padding: 4rem;
+}
+
+.doctor-description > h3 {
+    margin-bottom: 1.25rem;
+}
+
+.doctor-container > .image-container > img {
+    width: 100%;
+    height: 100%;
+}
+
+.especialist-container {
+    padding: 16rem 0;
+    text-align: center;
+
+    display: grid;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.especialist-container > ul {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.footer {
+    padding: 16rem 0;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    gap: 4rem;
+
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+
+.footer > ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.footer-enlace {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.icon {
+    width: 4rem;
 }
