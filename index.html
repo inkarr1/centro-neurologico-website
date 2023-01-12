@@ -2,14 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="./Assets/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Centro Neurológico</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="Styles/style.css">
 </head>
 <body>
 <header class="header">
-    <span>
-        <img src="./Assets/logo.png" alt="Logo de Centro Neurologico 'Virgen de Yauca'">
-    </span>
+    <img class="logo" src="./Assets/logo.png" alt="Logo de Centro Neurologico 'Virgen de Yauca'">
     <nav class="navigator">
         <ul>
             <li><a href="#banner">Inicio</a></li>
@@ -21,136 +21,147 @@
 </header>
 <main class="main">
     <section class="banner" id="banner">
-        <div>
-            <img src="./Assets/logo.png" alt="Logo">
-        </div>
-        <div class="banner-description">
-            <h1 class="h1 title">
+        <div class="section layout">
+            <div class="container">
+                <img class="logo" src="./Assets/logo.png" alt="Logo">
+                <div class="description">
+                    <h1 class="h1 title">
                 <span class="accent-color">
                     Neurólogo en Huaraz
-                </span></br>
-                 a un click de distancia
-            </h1>
-            <p>Dr. Rubiños Casavilca</p>
-            <p>Especialista en tratamiento Neurológico - CMP. 39036</p>
-        </div>
-        <div class="cta-container">
-            <div class="opening-hours">
-                <h3>Horario de atención</h3>
-                <p>Lunes a Sábados: 4:00pm - 6:00pm</p>
+                </span><br>
+                        a un click de distancia
+                    </h1>
+                    <p>Dr. Rubiños Casavilca <br>
+                        Especialista en tratamiento Neurológico - CMP. 39036
+                    </p>
+                </div>
+                <div class="cta-container">
+                    <div class="opening-hours">
+                        <h3>Horario de atención</h3>
+                        <p>Lunes a Sábados: 4:00pm - 6:00pm</p>
+                    </div>
+                    <div class="button-container">
+                        <a class="button" href="https://wa.link/194atp" target="_blank">
+                            <img class="icon" src="./Assets/whatsapp.png" alt="Logo de WhatsApp">
+                            <span>Agenda una cita</span>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="button-container">
-                <button class="cta-button">
-                    <a href="https://wa.link/194atp" target="_blank">
-                        <img class="whatsapp" src="./Assets/whatsapp.png" alt="Logo de WhatsApp">
-                        <span>Agenda una cita</span>
-                    </a>
-                </button>
+            <div class="img-container">
+                <img src="./Assets/photo.png" alt="Doctor">
             </div>
         </div>
-        <img src="./Assets/photo.png" alt="Doctor">
+        <img class="img-background" src="./Assets/brain.png">
     </section>
     <section class="process">
-        <ul class="grid-container">
-            <li><img src="./Assets/calendar.png" alt="Calendario">
-                <h3>Cita al mismo dia</h3>
-                <p>Para programar una cita puedes llamar al numero telefonico que se muestra arriba.</p>
-            </li>
-            <li><img src="./Assets/especialist.png" alt="Especialista">
-                <h3>Doctor Especialista</h3>
-                <p>Especialista de Tratamiento Neurologico.</p>
-            </li>
-            <li><img src="./Assets/electroencefalograma.png" alt="Electroencefalograma">
-                <h3>Electroencefalograma</h3>
-                <p>Se realiza estudio de Electroencefalograma</p>
-            </li>
-        </ul>
-        <div class="button-container">
-            <button class="cta-button">
+        <div class="section layout">
+            <h2>Beneficios</h2>
+            <ul>
+                <li><img src="./Assets/calendar.png" alt="Calendario">
+                    <h3>Cita al mismo dia</h3>
+                    <p>Para programar una cita puedes llamar al numero telefonico que se muestra arriba.</p>
+                </li>
+                <li><img src="./Assets/especialist.png" alt="Especialista">
+                    <h3>Doctor Especialista</h3>
+                    <p>Especialista de Tratamiento Neurologico.</p>
+                </li>
+                <li><img src="./Assets/electroencefalograma.png" alt="Electroencefalograma">
+                    <h3>Electroencefalograma</h3>
+                    <p>Se realiza estudio de Electroencefalograma</p>
+                </li>
+            </ul>
+            <div class="button-container">
                 <a href="https://wa.link/194atp" target="_blank">
-                    <img class="whatsapp" src="./Assets/whatsapp.png" alt="Logo de WhatsApp">
-                    <span>Agenda una cita</span>
+                    <button class="button">
+                        <img class="icon whatsapp" src="./Assets/whatsapp.png" alt="Logo de WhatsApp">
+                        <span>Agenda una cita</span>
+                    </button>
                 </a>
-            </button>
+            </div>
         </div>
     </section>
     <section class="about" id="about">
-        <h2>Especialista del Centro Neurológico</h2>
-        <div class="grid-container doctor-container">
-            <div class="doctor-description">
-                <h3>Dr. Casavilca Quispe, Rubiños</h3>
-                <p>
-                    Médico con especialización en Neurología
-                    con más de diez años de experiencia. Tiene capacitación adicional en diversas
-                    instituciones y diplomados. Actualmente labora en el Hospital de Apoyo Victor
-                    Ramos Guardia - Huaraz.
-                </p>
-                <div class="button-container">
-                    <button class="cta-button">
+        <article class="section layout">
+            <h2>Especialista del Centro Neurológico</h2>
+            <div class="grid-container doctor-container">
+                <div class="doctor-description">
+                    <h3>Dr. Casavilca Quispe, Rubiños</h3>
+                    <p>
+                        Médico con especialización en Neurología
+                        con más de diez años de experiencia. Tiene capacitación adicional en diversas
+                        instituciones y diplomados. Actualmente labora en el Hospital de Apoyo Victor
+                        Ramos Guardia - Huaraz.
+                    </p>
+                    <div class="button-container">
                         <a href="https://wa.link/194atp" target="_blank">
-                            <img class="whatsapp" src="./Assets/whatsapp.png" alt="Logo de WhatsApp">
-                            <span>Agenda una cita</span>
+                            <button class="button">
+                                <img class="icon" src="./Assets/whatsapp.png" alt="Logo de WhatsApp">
+                                <span>Agenda una cita</span>
+                            </button>
                         </a>
-                    </button>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="./Assets/doctor_professional.png" alt="">
                 </div>
             </div>
-            <div class="image-container">
-                <img src="./Assets/doctor_professional.png" alt="">
-            </div>
-        </div>
+        </article>
     </section>
-    <section class="especialist-container" id="services">
-        <h2>Esecialista en los siguientes tratamientos neurológicos</h2>
-        <ul>
-            <li>Epilepsia y Convulsiones</li>
-            <li>Cefalea y Migrana</li>
-            <li>Demecias</li>
-            <li>Dolor Neuropatico</li>
-            <li>Manejo del Dolor de Hernias</li>
-            <li>Ansiedad y Depresion</li>
-            <li>Ataques Cerebrales</li>
-            <li>Infecciones del Sistema Nervioso Central</li>
-            <li>Fibromialgias</li>
-            <li>Trastornos de Deficit de Atencion de Ninos</li>
-            <li>Estudios de Electroencefalograma</li>
-        </ul>
-        <div class="button-container">
-            <button class="cta-button">
-                <a href="https://wa.link/194atp" target="_blank">
-                    <img class="whatsapp" src="./Assets/whatsapp.png" alt="Logo de WhatsApp">
+    <section class="especialist" id="services">
+        <article class="section layout">
+            <h2>Esecialista en los siguientes tratamientos neurológicos</h2>
+            <ul>
+                <li>Epilepsia y Convulsiones</li>
+                <li>Cefalea y Migrana</li>
+                <li>Demecias</li>
+                <li>Dolor Neuropatico</li>
+                <li>Manejo del Dolor de Hernias</li>
+                <li>Ansiedad y Depresion</li>
+                <li>Ataques Cerebrales</li>
+                <li>Infecciones del Sistema Nervioso Central</li>
+                <li>Fibromialgias</li>
+                <li>Trastornos de Deficit de Atencion de Ninos</li>
+                <li>Estudios de Electroencefalograma</li>
+            </ul>
+            <div class="button-container">
+                <a class="button" href="https://wa.link/194atp" target="_blank">
+                    <img class="icon" src="./Assets/whatsapp.png" alt="Logo de WhatsApp">
                     <span>Agenda una cita</span>
                 </a>
-            </button>
-        </div>
+            </div>
+        </article>
     </section>
 </main>
 <footer class="footer">
-    <h3>Nuestro centro neurológico</h3>
-    <div>
-        <a href="https://www.google.com/maps/place/CENTRO+NEUROL%C3%93GICO+%22VIRGEN+DE+YAUCA%22+E.I.R.L/@-9.5343287,-77.5304988,21z/data=!4m5!3m4!1s0x91a90d1ec499490b:0x46e0069f871e7a57!8m2!3d-9.5342485!4d-77.5303566" target="_blanks">
-            <img src="./Assets/map.png" alt="Mapa de ubicación del consultorio.">
-        </a>
-    </div>
-    <ul>
-        <li>
-            <a class="footer-enlace" href="">
-                <img class="icon" src="./Assets/whatsapp.png" alt="">
-                <p>Whatsapp</p>
+    <section>
+        <h3>Nuestro centro neurológico</h3>
+        <div class="footer-container">
+            <a href="https://www.google.com/maps/place/CENTRO+NEUROL%C3%93GICO+%22VIRGEN+DE+YAUCA%22+E.I.R.L/@-9.5343287,-77.5304988,21z/data=!4m5!3m4!1s0x91a90d1ec499490b:0x46e0069f871e7a57!8m2!3d-9.5342485!4d-77.5303566" target="_blanks">
+                <img src="./Assets/map.png" alt="Mapa de ubicación del consultorio.">
             </a>
-        </li>
-        <li>
-            <a class="footer-enlace" href="">
-                <img class="icon" src="./Assets/Linkedin.png" alt="">
-                LinkedIn
-            </a>
-        </li>
-        <li>
-            <a class="footer-enlace" href="">
-                <img class="icon" src="./Assets/Facebook.png" alt="">
-                Facebook
-            </a>
-        </li>
-    </ul>
+        </div>
+        <ul>
+            <li>
+                <a class="footer-enlace" href="">
+                    <img class="icon" src="./Assets/whatsapp.png" alt="">
+                    Whatsapp
+                </a>
+            </li>
+            <li>
+                <a class="footer-enlace" href="">
+                    <img class="icon" src="./Assets/Linkedin.png" alt="">
+                    LinkedIn
+                </a>
+            </li>
+            <li>
+                <a class="footer-enlace" href="">
+                    <img class="icon" src="./Assets/Facebook.png" alt="">
+                    Facebook
+                </a>
+            </li>
+        </ul>
+    </section>
 </footer>
 </body>
 </html>
